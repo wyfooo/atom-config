@@ -1,10 +1,20 @@
 "*":
+  "atom-beautify":
+    python:
+      beautify_on_save: true
+      default_beautifier: "yapf"
+  "atom-runner": {}
   core:
     telemetryConsent: "no"
+  editor:
+    showIndentGuide: true
+    tabLength: 4
   "exception-reporting":
     userId: "759cae69-bb02-4477-92a8-d4de271d84d6"
   "markdown-themeable-pdf":
     enableCustomFooter: false
     enableCustomHeader: false
+  "python-autopep8":
+    formatOnSave: true
   welcome:
     showOnStartup: false
